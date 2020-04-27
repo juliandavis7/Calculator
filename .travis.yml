@@ -6,9 +6,8 @@ script: ant build
 addons:
   sonarcloud:
     organization: juliandavis7
-    token:
-      secure: 0fbfbb99eee2a710c1d64bafb406e20628fd4ab8
+    token: 0fbfbb99eee2a710c1d64bafb406e20628fd4ab8
 
-script: 
+script:
 - ant build
 - sonar-scanner
