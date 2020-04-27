@@ -13,7 +13,7 @@ public class Main extends Application {
 	public void start(Stage primaryStage) {
 		try {
 			System.out.println("To use log:\n1. Enter the base\n2. Press log" 
-					+ "\n3. Enter the number you'd like to log\n4. Press Equals");
+					+ "\n3. Enter the number you'd like to log\n4. Press Equals\n");
 			Parent root = FXMLLoader.load(getClass().getResource("/application/Main.fxml"));
 			Scene scene = new Scene(root,400,400);
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());

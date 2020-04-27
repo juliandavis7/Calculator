@@ -16,7 +16,6 @@ public class MainController {
 	
 	@FXML
 	public void processNums(ActionEvent event) {
-		System.out.println("Num");
 		if (start) {
 			res.setText("");
 			start = false;
@@ -27,7 +26,6 @@ public class MainController {
 	
 	@FXML
 	public void processOps(ActionEvent event) {
-		System.out.println("Op");
 		String val = ((Button)event.getSource()).getText();
 		if (!val.equals("=")) {
 			if (!op.isEmpty()) {
